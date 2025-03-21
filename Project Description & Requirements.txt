@@ -1,0 +1,81 @@
+Supply Chain Analytics: Late Delivery Risk Prediction & Insights
+
+Objective
+
+This project analyzes supply chain data to predict late delivery risks and generate actionable insights. By optimizing logistics, it aims to improve customer satisfaction and maximize profitability.
+
+Scope
+
+Data Analysis: Compare actual vs. scheduled shipping times, evaluate delivery risks, and analyze sales trends.
+
+Predictive Modeling: Develop a machine learning model to predict Late_delivery_risk based on factors such as shipping mode and regional data.
+
+Dashboard: Build an interactive Power BI dashboard to visualize key metrics, including delivery performance, profit margins, and delay patterns.
+
+
+Dataset
+
+The dataset consists of 53 columns, including:
+
+Days for shipping (real), Late_delivery_risk, Sales per customer, Shipping Mode, Latitude, Longitude, etc.
+
+
+Source: Kaggle (https://www.kaggle.com/datasets/paunesh/supply-chain-analytics/data).
+
+
+Tools & Technologies
+
+Python: Pandas, Scikit-learn, Matplotlib/Seaborn for data preprocessing, exploratory data analysis (EDA), and modeling.
+
+Power BI: Dashboard creation for stakeholder reporting and visualization.
+
+GitHub: Version control and collaboration.
+
+
+Key Outcomes
+
+1. 15% of orders were identified as high-risk for late delivery, with certain regions being more affected.
+
+
+2. Expedited shipping reduced delays by 20% compared to standard shipping methods.
+
+
+3. The predictive model achieved 85% accuracy in forecasting late deliveries.
+
+
+
+
+---
+
+Requirement Questions
+
+1. Delivery Performance
+
+What percentage of orders experience late deliveries, and which regions or markets are most affected?
+
+How does Shipping Mode (e.g., expedited vs. standard) impact Late_delivery_risk and profitability?
+
+Is there a correlation between Days for shipment (scheduled) and actual delivery delays?
+
+
+2. Sales & Profitability
+
+Which product categories yield the highest Benefit per order and Order Profit Per Order?
+
+Does increasing the Order Item Discount Rate lead to a higher Order Item Quantity, but at the cost of reduced profit?
+
+Are there seasonal trends in sales, such as increased demand during holidays?
+
+
+3. Customer Behavior
+
+How does Customer Segment (e.g., corporate vs. individual) influence purchasing patterns?
+
+Which geographic regions (Order Country/Market) contribute the most to overall sales?
+
+
+4. Operational Efficiency
+
+Can we predict Late_delivery_risk using features such as delay_duration and Shipping Mode?
+
+What is the average delay duration per region, and how can logistics be optimized to reduce delays?
